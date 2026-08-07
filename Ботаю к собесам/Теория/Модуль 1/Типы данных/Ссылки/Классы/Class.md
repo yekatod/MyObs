@@ -22,7 +22,7 @@ var c = new Customer("Oleg");
 
 ---
 
-Инициализаторы полей назначают значение по умолчанию
+Инициализаторы [[Field]] назначают значение по умолчанию
 
 ```C#
 public class Customer
@@ -49,7 +49,7 @@ public class Customer(int age)
 }
 ```
 
-Обязательные свойства
+Обязательные [[Property]]
 ```C#
 public class Customer
 {
