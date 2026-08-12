@@ -10,3 +10,14 @@ public delegate int PerformCalculation(int x, int y);
 ```
 
 Причём назначаемый метод может быть из любого класса или структуры, статичным или методом экземпляра. Это позволяет гибко подсоединять код к существующим классам.
+
+---
+
+## Использование
+
+```C#
+
+public delegate void InitSmth();
+public InitSmth Initiator {get; init;}
+
+```
