@@ -8,5 +8,5 @@
 Пример
 
 ```C#
-Predicate<int> checkEven = 
+Predicate<int> checkEven = num => num % 2 == 0;
 ```
