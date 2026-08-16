@@ -18,3 +18,24 @@
 - GetHashCode
 
 Может указывать как на управляемую память, собственную память или память в стеке
+
+---
+### Срезы
+
+При помощи метода `Slice()` можно получить срез диапазона по указанному индексу, что помогает уменьшить производительность
+
+```C#
+
+    static void Run()
+    {
+        string contentLength = "Content-Length: 132";
+        var length = GetContentLength(contentLength.ToCharArray());
+        Console.WriteLine($"Content length: {length}");
+    }
+
+    private static int GetContentLength(ReadOnlySpan<char> span)
+    {
+        var slice = span.Slice(16);
+        return int.Parse(slice);
+    }
+```
