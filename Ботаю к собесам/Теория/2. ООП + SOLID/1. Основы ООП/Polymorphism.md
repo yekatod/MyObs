@@ -4,3 +4,9 @@
 - при помощи абстрактных классов и виртуальных методов
 - перегрузки
 - обобщения
+
+- [[compile-time and runtime polymorphism]]
+- [[virtual dispatch]]
+- [[interface polymorphism]]
+- [[method overriding]]
+- [[method overloading]]
