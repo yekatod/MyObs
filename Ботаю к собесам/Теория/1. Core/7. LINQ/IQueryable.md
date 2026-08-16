@@ -1,2 +1,6 @@
 
 ---
+
+[[Covariance]]
+
+Производный от [[IEnumerable]]

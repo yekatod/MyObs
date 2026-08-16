@@ -6,6 +6,6 @@
 Свойства:
 
 Методы:
-- GetEnumerator() - возвращает реализованный енумератор
+- GetEnumerator() - возвращает [[IEnumerator]]
 
 Коллекции с реализацией IEnumerable поддерживают `foreach`
