@@ -4,6 +4,8 @@
 
 Методы, которые существуют только в [[Partial Class]], которые в одной части могут быть объявлены, а в другой реализованы
 
+Должен быть `void` и без модификатора доступа
+
 ```C#
 // part containing defining partial method declarations
 partial class C
